@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StoreApp.Entities;
 
@@ -25,7 +21,7 @@ namespace StoreApp.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Produto>> GetTodosProdutosAsync(List<Produto> _produtos)
+        public async Task<IEnumerable<Produto>> GetTodosProdutosAsync()
         {
             return await Task.FromResult(Get_produtos());
         }
