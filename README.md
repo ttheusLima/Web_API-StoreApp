@@ -22,5 +22,5 @@ Link para a classe de teste de ProdutoControllerTest: [Clique para ver](https://
 
 >![img](img/Teste-ProdutoControllerTest.png/)
 
-Link para a classe de teste de ProdutoServiceTest: [Clique para ver](Teste-ProdutoServiceTest.png)
+Link para a classe de teste de ProdutoServiceTest: [Clique para ver](https://github.com/ttheusLima/Web_API-StoreApp/blob/main/Api/Test/ProdutoServiceTest.cs)
 >![img](img/Teste-ProdutoServiceTest.png/)
