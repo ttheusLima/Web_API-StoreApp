@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using StoreApp.Context;
@@ -50,5 +51,14 @@ namespace Test
             Assert.AreEqual(4, produtos.Count());
         }
 
+        [Test]
+        public void GetProdutoPorId_DeverarRetonarProdutoPorId()
+        {
+            var listaProdutos = new DadosParaTesteUnitario().GetTestProdutos();
+            var produto = _repository.GetProdutoId(3); 
+            
+            Assert.IsNotNull(produto);
+            Assert.AreEqual(produto.Nome, listaProdutos[2].Nome);
+        }
     }
 }
