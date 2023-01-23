@@ -16,11 +16,11 @@ namespace StoreApp.Service
             _context = context;
         }
 
-        public IActionResult GetProdutoId(int id)
+        public Produto GetProdutoId(int id)
         {
             var produto = _context.Produtos.FirstOrDefault(p => p.IdProduto == id); 
 
-            return (IActionResult)produto;
+            return produto;
         }
 
         public List<Produto> Get_produtos()

@@ -6,7 +6,7 @@ namespace StoreApp.Interface
     public interface IProdutoService
     {
         public List<Produto> Get_produtos();
-        public IActionResult GetProdutoId(int id);
+        public Produto GetProdutoId(int id);
         public void PostProduto(Produto produto);
     }
 }
