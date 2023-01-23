@@ -13,7 +13,12 @@
  - Arquitetura da aplicação;
  - Programação orientada a objetos;
  - Boas práticas e princípios como SOLID e DDD;
- - Testes unitários;
+ - Testes unitários. Estudado duas formas de teste, uma que os dados são armazenados em uma lista e com um objeto mock; e
  - Uso correto do padrão REST;
  
  ## EVIDÊNCIAS DE QUE OS TESTE UNITÁRIO PASSARAM COM ÊXITO ☑️
+
+Link para a classe de teste de ProdutoControllerTest: [Clique para ver](https://github.com/ttheusLima/Web_API-StoreApp/blob/main/Api/Test/ProdutoControllerTest.cs)
+
+
+Link para a classe de teste de ProdutoServiceTest: [Clique para ver](Teste-ProdutoServiceTest.png)
